@@ -4,7 +4,7 @@ object Dependencies {
 
   object Versions {
     val cats            = "2.6.0"
-    val catsEffect      = "3.0.2"
+    val catsEffect      = "3.1.1"
     val circe           = "0.13.0"
     val ciris           = "2.0.0-RC2"
     val enumeratum      = "1.6.1"
