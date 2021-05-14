@@ -12,7 +12,7 @@ object Dependencies {
     val http4s          = "1.0.0-M21"
     val newtype         = "0.4.4"
     val refined         = "0.9.24"
-    val scalaTest       = "3.2.8"
+    val scalaTest       = "3.2.9"
     val weaverTest      = "0.7.1"
     val websocketClient = "0.5.0-M4"
   }
