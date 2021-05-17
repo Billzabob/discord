@@ -29,7 +29,7 @@ lazy val docs = project
   .enablePlugins(MdocPlugin)
 
 lazy val commonSettings = Seq(
-  scalaVersion := "2.13.5",
+  scalaVersion := "2.13.6",
   crossScalaVersions := List(scalaVersion.value, "2.12.12"),
   scalacOptions ++= (CrossVersion.partialVersion(scalaVersion.value) match {
     case Some((2, n)) if n >= 13 => Seq("-Ymacro-annotations")

@@ -23,7 +23,7 @@ jobs:
       with:
         java-version: 11
     - name: Check formatting
-      if: matrix.scala == '2.13.5'
+      if: matrix.scala == '2.13.6'
       run: sbt ++${{ matrix.scala }} scalafmtCheckAll
     - name: Run tests
       env:
