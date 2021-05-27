@@ -9,7 +9,7 @@ object Dependencies {
     val ciris           = "2.0.0-RC2"
     val enumeratum      = "1.6.1"
     val fs2             = "3.0.1"
-    val http4s          = "1.0.0-M21"
+    val http4s          = "1.0.0-M23"
     val newtype         = "0.4.4"
     val refined         = "0.9.24"
     val scalaTest       = "3.2.8"
