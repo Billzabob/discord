@@ -14,7 +14,7 @@ object Dependencies {
     val refined         = "0.9.24"
     val scalaTest       = "3.2.8"
     val weaverTest      = "0.7.1"
-    val websocketClient = "0.5.0-M4"
+    val websocketClient = "0.5.0-RC1"
   }
 
   object Compile {
